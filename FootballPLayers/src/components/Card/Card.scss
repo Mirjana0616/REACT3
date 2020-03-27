@@ -1,0 +1,17 @@
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    span {
+    	 display: block;
+  		 margin: 10px 2px;
+    }
+    &:hover {
+        box-shadow: 4px 4px 7px gray, -4px 4px 7px gray;
+    }
+}
